@@ -1,0 +1,28 @@
+@font-face {
+    font-family: merriweather;
+    src: url(fonts/Merriweather/Merriweather-Regular.ttf);
+}
+
+body {
+    font-family: merriweather;
+    font-size: 1rem;
+    margin: 0;
+    overscroll-behavior-y: none;
+}
+
+a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
